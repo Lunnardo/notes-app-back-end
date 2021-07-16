@@ -1,0 +1,19 @@
+{
+  "name": "note-app-back-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon ./src/server.js",
+    "lint": "eslint ./src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^20.1.5",
+    "events": "^3.3.0",
+    "http": "0.0.1-security",
+    "nanoid": "^3.1.23",
+    "nodemon": "^2.0.12"
+  }
+}
